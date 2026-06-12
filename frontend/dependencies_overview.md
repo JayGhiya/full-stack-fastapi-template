@@ -1,0 +1,26 @@
+# Dependencies Overview
+
+- **Package management**: Use `bun` as the package manager for this codebase.
+- **@hookform/resolvers**: Purpose: Resolver adapters for React Hook Form that let you integrate external validation libraries such as Yup, Zod, Joi, Ajv, Vest, and others. Some resolvers also infer form output types from the schema in TypeScript.
+- **@tailwindcss/vite**: Purpose: Official Tailwind CSS Vite plugin for integrating Tailwind CSS into Vite apps. Tailwind’s docs recommend installing `tailwindcss` and `@tailwindcss/vite`, adding `tailwindcss()` to the Vite config, and importing `tailwindcss` in your CSS.
+- **@tanstack/react-query**: Purpose: React Query is TanStack’s TypeScript-ready React library for server-state management. It provides declarative APIs to fetch, cache, refetch, synchronize, and update async data in React applications.
+- **@tanstack/react-query-devtools**: Purpose: TanStack Query’s React devtools package for inspecting query and mutation state in your app. It supports floating or embedded panels and is intended for development builds.
+- **@tanstack/react-router**: Purpose: A type-safe router for building React applications, with 100% inferred TypeScript support, nested/layout routing, route loaders with caching, and typed JSON-first search params. It also supports file-based or code-based routing, prefetching, and route context.
+- **@tanstack/react-router-devtools**: Purpose: TanStack Router devtools for React: a separate package that visualizes router state and helps debug routing behavior. It provides floating, fixed, and embedded panels, and can connect to a router instance or render inside your route tree.
+- **@tanstack/react-table**: Purpose: React adapter for TanStack Table’s headless table core. It adds React-specific reactivity, state handling, and rendering helpers for building fully customizable tables and datagrids.
+- **axios**: Purpose: A promise-based HTTP client for the browser and Node.js. It includes built-in TypeScript support and request/response interceptors.
+- **class-variance-authority**: Purpose: TypeScript-first utility for defining and resolving UI component class variants. It supports variants, compound variants, default variants, and the `VariantProps` helper for extracting typed props.
+- **clsx**: Purpose: Tiny utility for constructing `className` strings conditionally; also a smaller, faster drop-in replacement for the `classnames` module.
+- **form-data**: Purpose: Creates readable multipart/form-data streams for submitting forms and file uploads to other web applications. Its API is inspired by the browser XMLHttpRequest FormData interface.
+- **lucide-react**: Purpose: React icon component library for Lucide. Each icon is provided as a standalone React component, with TypeScript support and tree-shakable ESM imports.
+- **next-themes**: Purpose: An abstraction for themes in your React/Next.js app. It provides `ThemeProvider` and `useTheme` for light/dark/system themes with no flash on load, plus cross-tab sync and class/data-attribute theming.
+- **Radix UI React Primitives**: Purpose: Open-source, low-level React UI primitives for building accessible design systems and web apps. Components are unstyled, fully typed, and designed for customization and incremental adoption. Source: https://www.radix-ui.com/primitives/docs/overview/introduction
+- **react**: Purpose: React is a JavaScript library for building user interfaces from reusable components. In TypeScript projects, its type definitions are provided through @types/react and @types/react-dom.
+- **react-dom**: Purpose: React DOM provides web-only APIs for rendering React components in the browser DOM. It also exposes client rendering via `react-dom/client` and server rendering via `react-dom/server`.
+- **react-error-boundary**: Purpose: Reusable React error boundary component for wrapping parts of the UI and rendering fallback content when rendering fails. It also provides helpers for logging, resetting, and imperatively surfacing event/async errors via a hook or HOC, with support for React DOM and React Native.
+- **react-hook-form**: Purpose: A performant, flexible, and extensible React forms library with easy-to-use validation. It minimizes re-renders and provides a feature-complete API for building forms.
+- **react-icons**: Purpose: A React icon library that provides popular SVG icons from many icon packs as React components. It uses ES6 imports so you can import only the icons your app uses, and it has native TypeScript support.
+- **sonner**: Purpose: An opinionated toast component for React. Add <Toaster /> to your app to render notifications, then call toast() from anywhere.
+- **tailwind-merge**: Purpose: Utility for merging Tailwind CSS class strings without style conflicts. It is fully typed and can be customized for non-default Tailwind configs.
+- **tailwindcss**: Purpose: Utility-first CSS framework that scans your source files for class names and generates the corresponding static CSS at build time, with zero runtime. It’s designed to let you compose styles directly in your markup or components.
+- **zod**: Purpose: TypeScript-first schema validation library with static type inference. Use it to define schemas, validate data at runtime, and infer safe TypeScript types.
